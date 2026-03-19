@@ -1,0 +1,13 @@
+langchain
+langgraph
+langchain-community
+unstructured
+openai
+faiss-cpu
+sentence-transformers
+pypdf
+tqdm
+streamlit
+networkx
+pyvis
+python-dotenv
