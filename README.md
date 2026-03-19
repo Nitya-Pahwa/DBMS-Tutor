@@ -58,12 +58,12 @@ graph_flow.py
 preprocess_index.py  
 requirements.txt  
 
- Setup Instructions
+## Setup Instructions
 
 1. Clone repo
 ```bash
-git clone https://github.com/your-username/dbms-concept-tutor.git
-cd dbms-concept-tutor
+[git clone https://github.com/your-username/dbms-concept-tutor.git
+cd dbms-concept-tutor](https://github.com/Nitya-Pahwa/DBMS-Tutor.git)
 ```
 
 2. Install dependencies  
@@ -78,11 +78,12 @@ python preprocess_index.py
 5. Run app  
 streamlit run app.py
 
-Dataset
+## Dataset
 
 DBMS PDFs (books, notes, slides)  
-Converted into embeddings for retrieval  
+Converted into embeddings for retrieval       
 
+## Glimpses of the Project  
 <img width="1920" height="890" alt="Screenshot (1574)" src="https://github.com/user-attachments/assets/ffc22e4e-c5ee-46f4-a364-f0a57416c11e" /><br>
 
 <img width="1920" height="912" alt="Screenshot (1575)" src="https://github.com/user-attachments/assets/0189385c-b4af-45dd-b176-eca99bcd0d9d" /><br>
