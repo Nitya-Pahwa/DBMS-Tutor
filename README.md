@@ -20,10 +20,10 @@ Built using **LangGraph + FAISS + Streamlit + Groq LLM**
 Pipeline:
 
 User Query  
-→ Classifier  
-→ Retriever (FAISS)  
-→ Reasoning (LLM)  
-→ Answer Generator  
+-> Classifier  
+-> Retriever (FAISS)  
+-> Reasoning (LLM)  
+-> Answer Generator  
 
 ## Concept Graph
 
@@ -46,18 +46,18 @@ The system generates a **knowledge graph**:
 - **Visualization**: PyVis
 
 ## Project Structure  
+```bash
 Nodes/  
 ├── classify.py  
 ├── retrieve.py  
 ├── reason.py  
 ├── generate.py  
 └── safe_llm.py  
-  
 app.py  
 graph_flow.py  
 preprocess_index.py  
 requirements.txt  
-
+```
 ## Setup Instructions
 
 1. Clone repo
@@ -66,17 +66,25 @@ requirements.txt
 cd dbms-concept-tutor](https://github.com/Nitya-Pahwa/DBMS-Tutor.git)
 ```
 
-2. Install dependencies  
+2. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
-3. Add environment variables  
+3. Add environment variables
+```bash
 GROQ_API_KEY=your_api_key_here
+```
 
-4. Build vector database  
+4. Build vector database
+```bash
 python preprocess_index.py
+```
 
-5. Run app  
+5. Run app
+```bash
 streamlit run app.py
+```
 
 ## Dataset
 
